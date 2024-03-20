@@ -1,9 +1,14 @@
 #4-Dairenin alanını ve çevresini hesaplayan python kodunu yazınız.(Dairenin yarıçapını kullanıcıdan alınız)
 
-pi = 3.14159
-yaricap = int(input("Alan giriniz:"))
+import math
 
-daireAlan = pi * yaricap * yaricap
-daireCevre = 2 * pi * yaricap
+yaricap = float(input("Yarıçapı giriniz: "))
 
-print("Dairenin alanı:",daireAlan, '', "ve ","Dairenin çevresi:", daireCevre)
+alan= (math.piyaricapyaricap)
+cevre= (2*math.piyaricap)
+
+totalText = f"Dairenin alanı= {alan}"
+print(totalText)
+
+totalText2 = f"Dairenin cevresi= {cevre}"
+print(totalText2)
