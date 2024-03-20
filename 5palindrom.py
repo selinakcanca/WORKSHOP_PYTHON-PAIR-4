@@ -3,15 +3,32 @@
 
 def palindrom_mu(sayi):
     sayi_str = str(sayi)
-    ters_sayi_str = sayi_str[::-1]
-    if sayi_str == ters_sayi_str:
+    tersi = sayi_str[::-1]
+
+    if sayi_str == tersi:
         return True
     else:
         return False
 
-sayi = input("Bir sayı giriniz: ")
+sayi = (input("Bir sayi girin: "))
 
 if palindrom_mu(sayi):
-    print(sayi, "bir palindromdur.")
+    print("Girdiğiniz sayi bir palindromdur.")
 else:
-    print(sayi, "bir palindrom değildir.")
+    print("Girdiğiniz sayi bir palindrom değildir.")
+
+
+""" 2.alternatif 
+
+
+    sayi =input("Lütfen bir sayi giriniz: ")
+
+tersten = sayi[::-1]
+
+if sayi == tersten:
+    print("Bu sayi bir palindromdur.")
+else:
+    print("Bu sayi bir palindrom değildir.")
+
+
+"""
